@@ -7,14 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+      backgroundImage: {},
     },
     fontFamily: {
-      manrope: ["Manrope", "sans-serif"],
+      plusJakarta: ["Plus Jakarta Sans", "sans-serif"],
+      caveatBrush: ["Caveat Brush", "serif"],
     },
   },
   plugins: [],
