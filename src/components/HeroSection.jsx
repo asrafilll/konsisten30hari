@@ -18,7 +18,7 @@ export const HeroSection = () => {
           Anak Muda
         </div>
         <div className="text-2xl">
-          Sabtu, 27 Januari 2024
+          Sabtu, 17 Februari 2024
           <br />
           Brighside Street Market, Bandung
         </div>

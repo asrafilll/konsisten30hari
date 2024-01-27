@@ -21,9 +21,9 @@ export const EventSummary = () => {
         <div className="h-[220px]"></div>
       </div>
       <div className="grid grid-cols-3 justify-items-center w-full">
-        <div className="w-20 h-100 bg-slate-700">a</div>
+        {/* <div className="w-20 h-100 bg-slate-700">a</div>
         <div>b</div>
-        <div>c</div>
+        <div>c</div> */}
       </div>
     </div>
   );
