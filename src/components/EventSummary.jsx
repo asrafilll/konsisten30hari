@@ -4,26 +4,47 @@ export const EventSummary = () => {
   return (
     <div>
       <div className="w-[50%] flex flex-col gap-4 ">
-        <div className="text-xl text-gray-300 leading-relaxed">
+        <div className="text-xl text-zinc-300 leading-relaxed">
           Bulan Ramadhan tak lama lagi datang. <br />
           Alangkah malang diri kita jika bulan yang penuh berkah ini berlalu
           begitu saja tanpa curahan ampunan dan pahala dari-Nya.
         </div>
-        <div className="text-xl text-gray-300 leading-relaxed">
+        <div className="text-xl text-zinc-300 leading-relaxed">
           Semoga Allah mempertemukan kita dengan bulan yang mulia ini,
           melarutkan kita dalam kelezatan beribadah dan bermunajat kepada-Nya,
           menangisi dosa dan kesalahan kita. <br />
           <br />
-          Ya Allah Ya Rabbi, pertemukanlah kami dengannya Maka persiapkanlah
+          Ya Allah Ya Rabbi, pertemukanlah kami dengannya. Maka persiapkanlah
           diri ini dengan sabaik-baik persiapan menyambutnya agar
-          #ramadhanlebihbaik
+          <span className="font-bold"> #ramadhanlebihbaik</span>
         </div>
-        <div className="h-[220px]"></div>
+        <div className="h-[120px]"></div>
       </div>
-      <div className="grid grid-cols-3 justify-items-center w-full">
-        {/* <div className="w-20 h-100 bg-slate-700">a</div>
-        <div>b</div>
-        <div>c</div> */}
+      <div className="grid grid-cols-3 justify-items-center w-full gap-6">
+        <div className="flex items-center justify-center bg-zinc-900 p-8 rounded-xl h-full">
+          <div>
+            <div className="font-bold text-2xl">
+              Mulai dari mana dulu biar konsisten
+            </div>
+            <div className="italic">Ustadz Farid Ramdhan</div>
+          </div>
+        </div>
+        <div className="flex items-center justify-center bg-zinc-900 p-8 rounded-xl h-full">
+          <div>
+            <div className="font-bold text-2xl">
+              Anak muda konsisten berkarya sesuai syariat
+            </div>
+            <div className="italic">Ustadz Hary Sadikin</div>
+          </div>
+        </div>
+        <div className="flex items-center justify-center bg-zinc-900 p-8 rounded-xl h-full">
+          <div>
+            <div className="font-bold text-2xl">
+              Agar Ramadhan tahun ini lebih baik
+            </div>
+            <div className="italic">Ustadz Fulan</div>
+          </div>
+        </div>
       </div>
     </div>
   );
