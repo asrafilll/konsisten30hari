@@ -1,6 +1,6 @@
 import React from "react";
 
-export const MoveUpSVG = ({ width, height }) => {
+export const MoveUpSVG = ({ width, height, stroke }) => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -8,7 +8,7 @@ export const MoveUpSVG = ({ width, height }) => {
       height={height}
       viewBox="0 0 24 24"
       fill="none"
-      stroke="currentColor"
+      stroke={stroke ?? "#fff"}
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"

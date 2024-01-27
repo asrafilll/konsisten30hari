@@ -1,3 +1,4 @@
+import { Provider } from "@/components/Provider";
 import "./globals.css";
 
 export const metadata = {
@@ -9,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className="font-plusJakarta bg-[#0A0A0A] p-16 text-zinc-300">
-        {children}
+        <Provider> {children} </Provider>
       </body>
     </html>
   );
