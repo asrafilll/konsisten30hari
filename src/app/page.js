@@ -8,13 +8,13 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <div className="h-[220px]"></div>
+      <div className="h-[100px] lg:h-[220px]"></div>
       <EventSummary />
-      <div className="h-[120px]"></div>
+      <div className="h-16 lg:h-[120px]"></div>
       <RundownEvent />
-      <div className="h-[220px]"></div>
+      <div className="h-[100px] lg:h-[220px]"></div>
       <RegistrationForm />
-      <div className="h-[220px]"></div>
+      <div className="h-[100px] lg:h-[220px]"></div>
       <Footer />
     </>
   );

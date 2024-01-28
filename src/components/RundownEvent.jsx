@@ -3,7 +3,7 @@ import React from "react";
 export const RundownEvent = () => {
   return (
     <>
-      <div className="pb-10 w-1/2 mx-auto text-gray-400 text-2xl text-center">
+      <div className="pb-10 w-1/2 mx-auto text-gray-400 text-base lg:text-2xl text-center">
         Rundown Acara
       </div>
       <div className="flex flex-col gap-8 w-1/2 mx-auto">
