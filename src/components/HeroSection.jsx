@@ -3,10 +3,10 @@ import { MoveUpSVG } from "./shared/moveupsvg";
 
 export const HeroSection = () => {
   return (
-    <div className="w-full lg:w-1/2 ">
+    <div className="w-full">
       <div className="flex justify-between text-slate-200">
-        <div className="text-sm lg:text-md">Jejak Sahabat</div>
-        <div className="text-sm lg:text-md">Brightside Street Market</div>
+        <div className="text-sm lg:text-xl">Jejak Sahabat</div>
+        <div className="text-sm lg:text-xl">Brightside Street Market</div>
       </div>
       <div className="mx-auto pt-20 text-center flex flex-col gap-2 lg:gap-4">
         <div className="font-caveatBrush text-xl lg:text-3xl text-slate-200">
@@ -24,8 +24,8 @@ export const HeroSection = () => {
         </div>
       </div>
       <div className="text-center pt-4 lg:pt-8">
-        <div className="inline-block py-3 px-4 lg:py-4 lg:px-8 border-white border-2 rounded-full">
-          <div className="flex justify-center items-center gap-1 lg:gap-4 text-xs">
+        <div className="inline-block py-3 px-4 lg:py-4 lg:px-8 border-white border-2 rounded-full hover:cursor-pointer">
+          <div className="flex justify-center items-center gap-1 lg:gap-4 text-xs lg:text-lg">
             Daftar Sekarang
             <MoveUpSVG />
           </div>

@@ -5,18 +5,18 @@ import { Button } from "@nextui-org/react";
 
 export const RegistrationForm = () => {
   return (
-    <div className="flex justify-between w-4/5 mx-auto items-center">
+    <div className="flex flex-col lg:flex-row justify-between w-full lg:w-4/5 mx-auto items-center">
       <div>
         <div className="flex items-center">
-          <div className="text-7xl mr-4">Daftar </div>
-          <div className="rounded-full p-4 bg-white">
-            <MoveUpSVG width={30} height={30} stroke={"#000000"} />
+          <div className="text-5xl lg:text-7xl mr-4">Daftar </div>
+          <div className="rounded-full p-3 lg:p-4 bg-white">
+            <MoveUpSVG stroke={"#000000"} />
           </div>
           <br />
         </div>
-        <div className="text-7xl">Sekarang </div>
+        <div className="text-5xl lg:text-7xl ">Sekarang </div>
       </div>
-      <div className="w-2/5 ">
+      <div className="w-4/5 lg:w-2/5 mt-8 lg:mt-0">
         <div className="flex flex-col gap-6">
           <Input
             type="text"
@@ -38,7 +38,12 @@ export const RegistrationForm = () => {
           />
         </div>
         <div className="pt-8">
-          <Button radius="sm" size="lg" fullWidth={true}>
+          <Button
+            radius="sm"
+            size="lg"
+            fullWidth={true}
+            className="hover:cursor-pointer"
+          >
             Daftar
           </Button>
         </div>

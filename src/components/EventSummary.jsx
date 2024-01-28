@@ -21,31 +21,34 @@ export const EventSummary = () => {
         <div className="h-16 lg:h-[120px]"></div>
       </div>
       <div className="grid lg:grid-cols-3 justify-items-center w-full gap-6">
-        <div className="flex lg:items-center lg:justify-center bg-zinc-900 p-4 lg:p-8 rounded-xl w-full">
+        <div className="flex lg:items-end bg-zinc-900 p-4 lg:p-8 rounded-xl w-full">
           <div>
             <div className="h-28"></div>
             <div className="font-bold text-base lg:text-2xl">
-              Mulai dari mana dulu biar konsisten
+              Mulai dari mana dulu
+              <br />
+              agar konsisten
             </div>
             <div className="italic">Ustadz Farid Ramdhan</div>
           </div>
         </div>
-        <div className="flex lg:items-center lg:justify-center bg-zinc-900 p-4 lg:p-8 rounded-xl w-full">
+        <div className="flex lg:items-end bg-zinc-900 p-4 lg:p-8 rounded-xl w-full">
           <div>
             <div className="h-28"></div>
-
             <div className="font-bold text-base lg:text-2xl">
-              Anak muda konsisten berkarya sesuai syariat
+              Anak muda konsisten berkarya <br />
+              sesuai syariat
             </div>
             <div className="italic">Ustadz Hary Sadikin</div>
           </div>
         </div>
-        <div className="flex lg:items-center lg:justify-center bg-zinc-900 p-4 lg:p-8 rounded-xl w-full">
+        <div className="flex lg:items-end bg-zinc-900 p-4 lg:p-8 rounded-xl w-full">
           <div>
             <div className="h-28"></div>
-
             <div className="font-bold text-base lg:text-2xl">
-              Agar Ramadhan tahun ini lebih baik
+              Agar Ramadhan tahun ini
+              <br />
+              lebih baik
             </div>
             <div className="italic">Ustadz Fulan</div>
           </div>

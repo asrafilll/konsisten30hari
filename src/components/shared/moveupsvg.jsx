@@ -10,7 +10,7 @@ export const MoveUpSVG = ({ width, height, stroke }) => {
       strokeWidth="2"
       strokeLinecap="round"
       strokeLinejoin="round"
-      className="lucide lucide-move-up-right w-4"
+      className="lucide lucide-move-up-right w-4 lg:w-6 items-center"
     >
       <path d="M13 5H19V11" />
       <path d="M19 5L5 19" />
