@@ -8,7 +8,7 @@ export const Footer = () => {
         Jejaksahabat x Konsisten30Hari x Brightside Street Market
       </div>
       <div className="pt-44 text-xl">Sponsored By</div>
-      <div className="mx-auto">
+      <div className="mx-autoc">
         <Image
           src="/img/sponsors.png"
           width={500}

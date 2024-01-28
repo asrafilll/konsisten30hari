@@ -12,7 +12,7 @@ export const HeroSection = () => {
         <div className="font-caveatBrush text-3xl text-slate-200">
           #RamadhanLebihBaik
         </div>
-        <div className="font-bold text-9xl tracking-tighter">
+        <div className="font-bold text-9xl tracking-tighter text-white">
           Konsistensi
           <br />
           Anak Muda
